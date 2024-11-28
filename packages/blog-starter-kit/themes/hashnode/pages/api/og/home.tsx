@@ -8,7 +8,7 @@ export const config = {
 };
 
 const fontRegular = fetch(
-	new URL('../../../assets/PlusJakartaSans-Regular.ttf', import.meta.url),
+	new URL('../../../assets/Rebond\ Grotesque\ Medium.otf', import.meta.url),
 ).then((res) => res.arrayBuffer());
 
 const fontMedium = fetch(
@@ -64,7 +64,7 @@ export default async function handler(req: NextRequest) {
 		(
 			<div
 				style={{
-					fontFamily: '"Plus Jakarta Sans"',
+					fontFamily: '"Rebond Grotesque"',
 				}}
 				tw={`relative flex h-full w-full p-8 bg-white`}
 			>
