@@ -8,7 +8,7 @@ export const config = {
 };
 
 const fontRegular = fetch(
-	new URL('../../../assets/PlusJakartaSans-Regular.ttf', import.meta.url),
+	new URL('../../../assets/Rebond\ Grotesque\ Medium.otf', import.meta.url),
 ).then((res) => res.arrayBuffer());
 
 const fontMedium = fetch(
